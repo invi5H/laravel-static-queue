@@ -1,0 +1,66 @@
+{
+    "name": "invi5h/laravel-static-queue",
+    "description": "A Laravel package for static queue drivers.",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mridul Aggarwal",
+            "email": "mridul_aggarwal@yahoo.co.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Invi5h\\LaravelStaticQueue\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Invi5h\\LaravelStaticQueue\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "pestphp/pest": "^1.21",
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "laravel/framework": "^9.9",
+        "orchestra/testbench": "^7.4",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "support": {
+        "issues": "https://github.com/invi5H/laravel-static-queue/issues",
+        "forum": "https://github.com/invi5H/laravel-static-queue/discussions",
+        "source": "https://github.com/invi5H/laravel-static-queue"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Invi5h\\LaravelStaticQueue\\ServiceProvider"
+            ],
+            "aliases": {
+                "StaticQueue": "Invi5h\\LaravelStaticQueue\\Facades\\Queue"
+            }
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "check": "./vendor/bin/php-cs-fixer fix --diff --dry-run -vvv",
+        "fix": "./vendor/bin/php-cs-fixer fix",
+        "test": "./vendor/bin/pest",
+        "coverage-report": "XDEBUG_MODE=coverage ./vendor/bin/pest --coverage-html='tests-coverage'"
+    }
+}
