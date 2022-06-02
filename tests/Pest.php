@@ -30,6 +30,7 @@ uses(TestCase::class)->in('Unit');
 |
 */
 
+expect()->extend('toBeZero', fn() : Expectation => $this->toBe(0));
 expect()->extend('toBeOne', fn() : Expectation => $this->toBe(1));
 
 /*

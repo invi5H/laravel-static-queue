@@ -3,6 +3,7 @@
 namespace Invi5h\LaravelStaticQueue;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use Invi5h\LaravelStaticQueue\Contracts\QueueServiceInterface;
 
 class ServiceProvider extends LaravelServiceProvider
 {
@@ -27,5 +28,7 @@ class ServiceProvider extends LaravelServiceProvider
             ];
             $this->publishes($paths, 'laravelstaticqueue');
         }
+
+        $this->app->singleton(QueueServiceInterface::class, QueueService::class);
     }
 }
