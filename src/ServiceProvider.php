@@ -30,5 +30,9 @@ class ServiceProvider extends LaravelServiceProvider
         }
 
         $this->app->singleton(QueueServiceInterface::class, QueueService::class);
+        $manager = $this->app['queue'];
+        if (method_exists($manager, 'addConnector')) {
+            $manager->addConnector('static', fn() => new Connector());
+        }
     }
 }

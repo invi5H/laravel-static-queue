@@ -14,7 +14,7 @@ class QueueService implements QueueServiceInterface
     /**
      * {@inheritDoc}
      */
-    public function job(callable|object|array|string $job, string $queue = null) : void
+    public function job(callable|object|string $job, string $queue = null) : void
     {
         $this->push($job, $queue);
     }
@@ -22,7 +22,7 @@ class QueueService implements QueueServiceInterface
     /**
      * {@inheritDoc}
      */
-    public function push(callable|object|array|string $job, string $queue = null) : void
+    public function push(callable|object|string $job, string $queue = null) : void
     {
         $this->jobs[$this->queue($queue)][] = $job;
     }
@@ -30,7 +30,7 @@ class QueueService implements QueueServiceInterface
     /**
      * {@inheritDoc}
      */
-    public function pushOn(string $queue, callable|object|array|string $job) : void
+    public function pushOn(string $queue, callable|object|string $job) : void
     {
         $this->push($job, $queue);
     }
@@ -81,9 +81,19 @@ class QueueService implements QueueServiceInterface
     /**
      * {@inheritDoc}
      */
-    public function pop(string $queue = null) : Job
+    public function pop(string $queue = null) : string|callable|object|null
     {
-        return new Job();
+        if (0 === $this->size($queue)) {
+            return null;
+        }
+
+        static $counter = 0;
+        if (empty($this->getJobs($queue)[$counter])) {
+            $counter = 0;
+            return $this->pop($queue);
+        }
+
+        return $this->getJobs($queue)[$counter++];
     }
 
     protected function queue(string $queue = null) : string

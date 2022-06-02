@@ -2,27 +2,25 @@
 
 namespace Invi5h\LaravelStaticQueue\Contracts;
 
-use Invi5h\LaravelStaticQueue\Job;
-
 interface QueueServiceInterface
 {
     /**
      * The job can be provided in any of the following ways -
      * object - a standard dispatchable laravel job class object with a public handle method
-     * string - job class name resolved via the default service container or a standard php function name
-     * callable - any standard php callable such as closure, arrow function, array syntax, class@method syntax, invokable object.
+     * string - job class name resolved via the default service container
+     * callable - any standard php/laravel callable such as closure, arrow function, first-class callable syntax, array syntax, class@method string syntax, invokable object.
      */
-    public function job(string|callable|array|object $job, string $queue = null) : void;
+    public function job(string|callable|object $job, string $queue = null) : void;
 
     /**
      * Alias to the above.
      */
-    public function push(string|callable|array|object $job, string $queue = null) : void;
+    public function push(string|callable|object $job, string $queue = null) : void;
 
     /**
      * Pushes to a specific queue.
      */
-    public function pushOn(string $queue, string|callable|array|object $job) : void;
+    public function pushOn(string $queue, string|callable|object $job) : void;
 
     /**
      * Bulk pushes a list of jobs to the same queue.
@@ -52,5 +50,5 @@ interface QueueServiceInterface
     /**
      * Gets the next job in the given queue.
      */
-    public function pop(string $queue = null) : Job;
+    public function pop(string $queue = null) : string|callable|object|null;
 }
