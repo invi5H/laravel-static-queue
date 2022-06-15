@@ -68,6 +68,10 @@ class Queue extends BaseQueue implements QueueInterface, ClearableQueue
             return null;
         }
 
+        if (is_string($job) && class_exists($job)) {
+            $job = app($job);
+        }
+
         if (is_array($job) && is_callable($job)) {
             $job = $job(...);
         }
