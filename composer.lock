@@ -2620,23 +2620,23 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.8.0",
+            "version": "v7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "ebb01398b1fff9516dd3a2c5aae5a0af01c72abd"
+                "reference": "9beb56686cadd34dc65ce2a422eb3299ed83dd87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/ebb01398b1fff9516dd3a2c5aae5a0af01c72abd",
-                "reference": "ebb01398b1fff9516dd3a2c5aae5a0af01c72abd",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/9beb56686cadd34dc65ce2a422eb3299ed83dd87",
+                "reference": "9beb56686cadd34dc65ce2a422eb3299ed83dd87",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.9.2",
                 "laravel/framework": "^9.32",
                 "mockery/mockery": "^1.4.4",
-                "orchestra/testbench-core": "^7.8",
+                "orchestra/testbench-core": "^7.8.1",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
                 "spatie/laravel-ray": "^1.28",
@@ -2673,7 +2673,7 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.8.0"
+                "source": "https://github.com/orchestral/testbench/tree/v7.8.1"
             },
             "funding": [
                 {
@@ -2685,20 +2685,20 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-09-28T05:58:44+00:00"
+            "time": "2022-10-04T09:54:01+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.8.0",
+            "version": "v7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "e9f7bf1765825c562182f7a6cbde854ed512a42f"
+                "reference": "ce07460265ac4dbe84ebaca73fc6b11beb935c69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/e9f7bf1765825c562182f7a6cbde854ed512a42f",
-                "reference": "e9f7bf1765825c562182f7a6cbde854ed512a42f",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/ce07460265ac4dbe84ebaca73fc6b11beb935c69",
+                "reference": "ce07460265ac4dbe84ebaca73fc6b11beb935c69",
                 "shasum": ""
             },
             "require": {
@@ -2780,7 +2780,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-09-28T05:52:37+00:00"
+            "time": "2022-10-03T14:09:25+00:00"
         },
         {
             "name": "pestphp/pest",
@@ -7563,16 +7563,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v6.1.0",
+            "version": "v6.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d"
+                "reference": "266636bb8f3fbdccc302491df7b3a1b9a8c238a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
-                "reference": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/266636bb8f3fbdccc302491df7b3a1b9a8c238a7",
+                "reference": "266636bb8f3fbdccc302491df7b3a1b9a8c238a7",
                 "shasum": ""
             },
             "require": {
@@ -7605,7 +7605,7 @@
             "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/stopwatch/tree/v6.1.0"
+                "source": "https://github.com/symfony/stopwatch/tree/v6.1.5"
             },
             "funding": [
                 {
@@ -7621,7 +7621,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T11:15:52+00:00"
+            "time": "2022-09-28T16:00:52+00:00"
         },
         {
             "name": "symfony/string",
@@ -8438,16 +8438,16 @@
         },
         {
             "name": "zbateson/mail-mime-parser",
-            "version": "2.2.2",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zbateson/mail-mime-parser.git",
-                "reference": "318cd809afebe48e8fb41625b05b25470fb3fa86"
+                "reference": "295c7f82a8c44af685680d9df6714beb812e90ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zbateson/mail-mime-parser/zipball/318cd809afebe48e8fb41625b05b25470fb3fa86",
-                "reference": "318cd809afebe48e8fb41625b05b25470fb3fa86",
+                "url": "https://api.github.com/repos/zbateson/mail-mime-parser/zipball/295c7f82a8c44af685680d9df6714beb812e90ff",
+                "reference": "295c7f82a8c44af685680d9df6714beb812e90ff",
                 "shasum": ""
             },
             "require": {
@@ -8507,7 +8507,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-01T15:59:13+00:00"
+            "time": "2022-09-28T16:31:49+00:00"
         },
         {
             "name": "zbateson/mb-wrapper",
