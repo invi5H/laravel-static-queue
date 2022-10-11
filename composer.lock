@@ -1327,16 +1327,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.34.0",
+            "version": "v9.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b7af7ff35497eb1c4e61652f522a862164dbba5a"
+                "reference": "85a465097e4f528520b2fc5924f54609bd6e2e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b7af7ff35497eb1c4e61652f522a862164dbba5a",
-                "reference": "b7af7ff35497eb1c4e61652f522a862164dbba5a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/85a465097e4f528520b2fc5924f54609bd6e2e9c",
+                "reference": "85a465097e4f528520b2fc5924f54609bd6e2e9c",
                 "shasum": ""
             },
             "require": {
@@ -1509,7 +1509,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-10-04T13:33:43+00:00"
+            "time": "2022-10-11T13:56:50+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2620,28 +2620,28 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.8.1",
+            "version": "v7.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "9beb56686cadd34dc65ce2a422eb3299ed83dd87"
+                "reference": "17c8b82bb42f26a0131559aaebabb0e875f28a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/9beb56686cadd34dc65ce2a422eb3299ed83dd87",
-                "reference": "9beb56686cadd34dc65ce2a422eb3299ed83dd87",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/17c8b82bb42f26a0131559aaebabb0e875f28a79",
+                "reference": "17c8b82bb42f26a0131559aaebabb0e875f28a79",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.9.2",
-                "laravel/framework": "^9.32",
-                "mockery/mockery": "^1.4.4",
-                "orchestra/testbench-core": "^7.8.1",
+                "laravel/framework": "^9.34",
+                "mockery/mockery": "^1.5.1",
+                "orchestra/testbench-core": "^7.10.1",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
                 "spatie/laravel-ray": "^1.28",
-                "symfony/process": "^6.0",
-                "symfony/yaml": "^6.0",
+                "symfony/process": "^6.0.9",
+                "symfony/yaml": "^6.0.9",
                 "vlucas/phpdotenv": "^5.4.1"
             },
             "type": "library",
@@ -2673,7 +2673,7 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.8.1"
+                "source": "https://github.com/orchestral/testbench/tree/v7.10.1"
             },
             "funding": [
                 {
@@ -2685,20 +2685,20 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-10-04T09:54:01+00:00"
+            "time": "2022-10-11T14:07:11+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.8.1",
+            "version": "v7.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "ce07460265ac4dbe84ebaca73fc6b11beb935c69"
+                "reference": "e4065bc5085aa0e643b901171cdb7fd95c0e8f3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/ce07460265ac4dbe84ebaca73fc6b11beb935c69",
-                "reference": "ce07460265ac4dbe84ebaca73fc6b11beb935c69",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/e4065bc5085aa0e643b901171cdb7fd95c0e8f3c",
+                "reference": "e4065bc5085aa0e643b901171cdb7fd95c0e8f3c",
                 "shasum": ""
             },
             "require": {
@@ -2706,26 +2706,26 @@
             },
             "require-dev": {
                 "fakerphp/faker": "^1.9.2",
-                "laravel/framework": "^9.32",
+                "laravel/framework": "^9.34",
                 "laravel/laravel": "9.x-dev",
                 "laravel/pint": "^1.1",
-                "mockery/mockery": "^1.4.4",
+                "mockery/mockery": "^1.5.1",
                 "orchestra/canvas": "^7.0",
                 "phpunit/phpunit": "^9.5.10",
-                "symfony/process": "^6.0",
-                "symfony/yaml": "^6.0",
+                "symfony/process": "^6.0.9",
+                "symfony/yaml": "^6.0.9",
                 "vlucas/phpdotenv": "^5.4.1"
             },
             "suggest": {
                 "brianium/paratest": "Allow using parallel tresting (^6.4).",
                 "fakerphp/faker": "Allow using Faker for testing (^1.9.2).",
-                "laravel/framework": "Required for testing (^9.32).",
-                "mockery/mockery": "Allow using Mockery for testing (^1.4.4).",
+                "laravel/framework": "Required for testing (^9.34).",
+                "mockery/mockery": "Allow using Mockery for testing (^1.5.1).",
                 "nunomaduro/collision": "Allow using Laravel style tests output and parallel testing (^6.2).",
                 "orchestra/testbench-browser-kit": "Allow using legacy Laravel BrowserKit for testing (^7.0).",
                 "orchestra/testbench-dusk": "Allow using Laravel Dusk for testing (^7.0).",
                 "phpunit/phpunit": "Allow using PHPUnit for testing (^9.5.10).",
-                "symfony/yaml": "Required for CLI Commander (^6.0).",
+                "symfony/yaml": "Required for CLI Commander (^6.0.9).",
                 "vlucas/phpdotenv": "Required for CLI Commander (^5.4.1)."
             },
             "bin": [
@@ -2780,7 +2780,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-10-03T14:09:25+00:00"
+            "time": "2022-10-11T12:29:15+00:00"
         },
         {
             "name": "pestphp/pest",
