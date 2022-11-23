@@ -2620,23 +2620,23 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.13.0",
+            "version": "v7.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "b87d7c70eb80cf4fd36c57d4f52fb66575be9ab8"
+                "reference": "717d97c9f8d256371c46659af2754f51accbfdce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/b87d7c70eb80cf4fd36c57d4f52fb66575be9ab8",
-                "reference": "b87d7c70eb80cf4fd36c57d4f52fb66575be9ab8",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/717d97c9f8d256371c46659af2754f51accbfdce",
+                "reference": "717d97c9f8d256371c46659af2754f51accbfdce",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.9.2",
                 "laravel/framework": "^9.36",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^7.13",
+                "orchestra/testbench-core": "^7.14",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
                 "spatie/laravel-ray": "^1.28",
@@ -2673,7 +2673,7 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.13.0"
+                "source": "https://github.com/orchestral/testbench/tree/v7.14.0"
             },
             "funding": [
                 {
@@ -2685,20 +2685,20 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-11-14T02:34:08+00:00"
+            "time": "2022-11-22T22:19:11+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.13.0",
+            "version": "v7.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "9faea2c774e2f7f60277f531ca4852661c1172a7"
+                "reference": "fb8c90c5f5cb9033e085e4fbf581093cd6e32862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/9faea2c774e2f7f60277f531ca4852661c1172a7",
-                "reference": "9faea2c774e2f7f60277f531ca4852661c1172a7",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/fb8c90c5f5cb9033e085e4fbf581093cd6e32862",
+                "reference": "fb8c90c5f5cb9033e085e4fbf581093cd6e32862",
                 "shasum": ""
             },
             "require": {
@@ -2782,7 +2782,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-11-14T02:26:50+00:00"
+            "time": "2022-11-22T09:06:48+00:00"
         },
         {
             "name": "pestphp/pest",
@@ -3226,16 +3226,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.18",
+            "version": "9.2.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a"
+                "reference": "c77b56b63e3d2031bd8997fcec43c1925ae46559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
-                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c77b56b63e3d2031bd8997fcec43c1925ae46559",
+                "reference": "c77b56b63e3d2031bd8997fcec43c1925ae46559",
                 "shasum": ""
             },
             "require": {
@@ -3291,7 +3291,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.18"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.19"
             },
             "funding": [
                 {
@@ -3299,7 +3299,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-27T13:35:33+00:00"
+            "time": "2022-11-18T07:47:47+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
