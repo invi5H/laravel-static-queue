@@ -2069,16 +2069,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.5",
+            "version": "1.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "68782e943f9ffcbc72bda08aedabe73fecb50041"
+                "reference": "b8e0bb7d8c604046539c1115994632c74dcb361e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/68782e943f9ffcbc72bda08aedabe73fecb50041",
-                "reference": "68782e943f9ffcbc72bda08aedabe73fecb50041",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/b8e0bb7d8c604046539c1115994632c74dcb361e",
+                "reference": "b8e0bb7d8c604046539c1115994632c74dcb361e",
                 "shasum": ""
             },
             "require": {
@@ -2150,7 +2150,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-08-06T00:30:34+00:00"
+            "time": "2023-08-09T00:03:52+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2417,21 +2417,21 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f"
+                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
-                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
+                "url": "https://api.github.com/repos/nette/schema/zipball/c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
+                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^2.5.7 || ^3.1.5 ||  ^4.0",
-                "php": ">=7.1 <8.3"
+                "php": "7.1 - 8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.3 || ^2.4",
@@ -2473,9 +2473,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.2.3"
+                "source": "https://github.com/nette/schema/tree/v1.2.4"
             },
-            "time": "2022-10-13T01:24:26+00:00"
+            "time": "2023-08-05T18:56:25+00:00"
         },
         {
             "name": "nette/utils",
@@ -2796,23 +2796,23 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.26.0",
+            "version": "v7.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "19acd592ee2182c0ea227e20edeeff3b8ae96369"
+                "reference": "04181db5870c7349d81c7b2234d0158f7f44f8e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/19acd592ee2182c0ea227e20edeeff3b8ae96369",
-                "reference": "19acd592ee2182c0ea227e20edeeff3b8ae96369",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/04181db5870c7349d81c7b2234d0158f7f44f8e0",
+                "reference": "04181db5870c7349d81c7b2234d0158f7f44f8e0",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^9.52.9",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^7.26",
+                "orchestra/testbench-core": "^7.26.1",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
                 "spatie/laravel-ray": "^1.32.4",
@@ -2849,22 +2849,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.26.0"
+                "source": "https://github.com/orchestral/testbench/tree/v7.26.1"
             },
-            "time": "2023-08-08T08:20:50+00:00"
+            "time": "2023-08-09T03:31:38+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.26.0",
+            "version": "v7.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "c5148b77463b0dff264e534d757d26b508eb84c5"
+                "reference": "89414cb81c09a33038034631dc6c703227a55eaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/c5148b77463b0dff264e534d757d26b508eb84c5",
-                "reference": "c5148b77463b0dff264e534d757d26b508eb84c5",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/89414cb81c09a33038034631dc6c703227a55eaa",
+                "reference": "89414cb81c09a33038034631dc6c703227a55eaa",
                 "shasum": ""
             },
             "require": {
@@ -2936,7 +2936,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2023-08-08T07:57:38+00:00"
+            "time": "2023-08-09T02:49:22+00:00"
         },
         {
             "name": "pestphp/pest",
